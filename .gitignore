@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+.vscode/
+.idea/
+
+data/uploads/*
+!data/uploads/.gitkeep
+
+models/*.pt
+models/*.pth
+models/*.safetensors
+models/*.bin
